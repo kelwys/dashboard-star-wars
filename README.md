@@ -1,70 +1,126 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <img alt="logo"  src="src/assets/logo.png">
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<h3 align="center">
+    Dashboard based on the famous Star Wars World! With ReactJs 💻🚀
+</h3>
 
-### `yarn start`
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kelwys/dashboard-star-wars?color=%2304D361">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/kelwys/dashboard-star-wars">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <a href="https://github.com/kelwys/dashboard-star-wars/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kelwys/dashboard-star-wars">
+  </a>
 
-### `yarn test`
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/kelwys/dashboard-star-wars/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/kelwys/dashboard-star-wars?style=social">
+  </a>
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+  <a href="#about-the-project">About The Project</a> |
+  <a href="#layout">Layout</a> |
+  <a href="#technologies">Technologies</a> |
+  <a href="#contribution">Contribution</a> |
+  <a href="#author">Author</a> |
+  <a href="#license">License</a>
+</p>
 
-### `yarn build`
+<h4 align="center">
+	🚧 Status: Building 🚀  🚧
+</h4>
+</br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2 id="about-the-project" > ⏰📈 About The Project </h2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+See some information from the world of Star Wars.
 
-### `yarn eject`
+Project developed to apply and test knowledge of reactjs and styled components. Using [SWAPI](https://https://swapi.dev/)) - **The RESTful StarWars API**.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+***You can see the first version [here](https://dashboard-star-wars.vercel.app/)!***
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Next steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [ ] Responsive;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+<h2 id="layout" >🎨  Layout </h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The dashboard preview:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![screen home](/src/assets/screen-01.png)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Getting Started
 
-### Analyzing the Bundle Size
+First, run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+# Clone Repository
+$ git clone https://github.com/kelwys/dashboard-star-wars.git
 
-### Making a Progressive Web App
+# Go to server folder
+$ cd dashboard-star-wars
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Install Dependencies
+$ yarn
 
-### Advanced Configuration
+# Run Aplication
+$ yarn start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Access localhost
+http://localhost:3000
+```
+---
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<h2 id="technologies"> 🛠 Technologies </h2>
 
-### `yarn build` fails to minify
+The following tools were used in the construction of the project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **[ReactJS](https://reactjs.org)**
+- **[Styled Components](https://styled-components.com/)**
+- **[Axios](https://github.com/axios/axios)**
+- **[React Google Charts](https://react-google-charts.com/)**
+- **[SWAPI](https://https://swapi.dev/)**
+
+---
+
+<h2 id="contribution"> 💪 Contribution </h2>
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+<h2 id="author"> 💻 Author </h2>
+
+<img style="border-radius: 50% !important;" src="https://kelwys.github.io/images/avatar.png" width="100px;" alt="photo author"/>
+
+ <sub><b>Kelwy Oliveira</b></sub></a> <a href="https://www.linkedin.com/in/kelwyoliveira/" title="kelwy`s linkedin">🚀</a>
+ <br />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Kelwy%20Oliveira-1692B4?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kelwyoliveira/)](https://www.linkedin.com/in/kelwyoliveira/)
+[![Gmail Badge](https://img.shields.io/badge/-kelwyduarte@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:kelwyduarte@gmail.com)](mailto:kelwyduarte@gmail.com)
+
+---
+
+<h2 id="license"> 📝 License </h2>
+
+This project is under the [MIT](./LICENSE) license.
+
+---
