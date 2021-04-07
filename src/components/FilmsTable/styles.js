@@ -27,4 +27,8 @@ export const ContainerTable = styled.div`
       padding: 0.50rem 0;
     }
   }
+
+  @media (max-width: 1214px) {
+    width: 660px;
+  }
 `;
