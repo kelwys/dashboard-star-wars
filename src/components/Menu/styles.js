@@ -7,8 +7,54 @@ export const Container = styled.div`
   padding: 3rem 0;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  &.openMenu {
+    transform: translate(0);
+    position: absolute;
+    overflow-y: hidden;
+    top:0;
+    left:0;
+
+    width: 250px;
+    height: 100vh;
+
+    background-color: #000;
+    opacity:0.9;
+
+    z-index: 10;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 768px) {
+    transform: translate(-250px);
+    display: none;
+  }
 `;
+
+export const MenuToggle = styled.div`
+  display: none;
+  margin-top: 20px;
+  margin-left: 50px;
+
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+
+  }
+  @media (max-width: 768px) {
+    display: flex;
+    position: absolute;
+    top: -5px;
+    z-index: 11;
+
+  }
+`
 
 export const Content = styled.div`
   display: flex;
@@ -24,7 +70,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 
     img {
       margin-bottom: .75rem;
@@ -38,8 +84,9 @@ export const Content = styled.div`
 
 export const Settings = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  /* padding-top: 80px; */
 
   svg {
     margin-right: 0.5rem;
