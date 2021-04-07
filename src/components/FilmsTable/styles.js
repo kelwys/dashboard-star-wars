@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const ContainerTable = styled.div`
-  margin: 0px 95px 0px 100px;
   width: 632px;
   padding: 30px;
   background: var(--shape);

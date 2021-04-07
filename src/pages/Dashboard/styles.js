@@ -2,11 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  
-  .container-body{
+
+  .container-body {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 80px;
     margin-top: 30px;
+  }
+
+  @media (max-width: 1024px) {
+    .container-body {
+      flex-direction: column;
+    }
   }
 `;
 
@@ -14,6 +22,12 @@ export const CardHeader = styled.header`
   display: flex;
   justify-content: center;
   padding: 20px;
+  margin-top: 30px;
+
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 `;
 
 export const Card = styled.div`
@@ -37,13 +51,24 @@ export const Card = styled.div`
   &:hover {
     transform: translateX(2px)
   }
+  @media (max-width: 1024px) {
+    &:first-child, :last-child {
+      order: -1;
+      width: 300px;
+    }
+  }
 `;
+
 export const CardContainer = styled.div`
   display: flex;
   width: 464px;
   justify-content: space-around;
   align-items: center;
   height: 100%;
+
+  @media (max-width: 1024px) {
+    width: 660px;
+  }
 `;
 export const CardContent = styled.div`
   display: flex;
