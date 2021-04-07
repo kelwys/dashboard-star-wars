@@ -8,12 +8,14 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin-top: 30px;
+    margin: 30px 0;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1214px) {
     .container-body {
       flex-direction: column;
+      gap: 25px;
+      margin-top: 0;
     }
   }
 `;
@@ -24,9 +26,12 @@ export const CardHeader = styled.header`
   padding: 20px;
   margin-top: 30px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1214px) {
     flex-wrap: wrap;
     gap: 20px;
+  }
+  @media (max-width: 768px) {
+    margin-top: 60px;
   }
 `;
 
@@ -51,7 +56,7 @@ export const Card = styled.div`
   &:hover {
     transform: translateX(2px)
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1214px) {
     &:first-child, :last-child {
       order: -1;
       width: 300px;
@@ -66,7 +71,7 @@ export const CardContainer = styled.div`
   align-items: center;
   height: 100%;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1214px) {
     width: 660px;
   }
 `;
