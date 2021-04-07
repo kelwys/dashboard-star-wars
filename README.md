@@ -49,6 +49,7 @@ Project developed to apply and test knowledge of reactjs and styled components. 
 ## Next steps:
 
 - [ ] Responsive;
+- [ ] Black end light theme;
 
 ---
 
