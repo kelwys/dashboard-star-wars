@@ -28,7 +28,7 @@ export const ContainerTable = styled.div`
     }
   }
 
-  @media (max-width: 1214px) {
+  @media (max-width: 1333px) {
     width: 660px;
   }
 `;
