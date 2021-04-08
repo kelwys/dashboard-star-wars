@@ -24,7 +24,7 @@ export function Menu() {
         <button type="button" onClick={handleShowtoggleMenu}>
           {showToggleMenu
             ? <MdClose size="50" color="#fff" />
-            : <MdMenu size="50" color="#000" />}
+            : <MdMenu size="50" color="#3d3d3d" />}
         </button>
       </MenuToggle>
       <Container className={showToggleMenu ? 'openMenu' : ''}>

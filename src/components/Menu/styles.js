@@ -29,9 +29,14 @@ export const Container = styled.div`
     align-items: center;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     transform: translate(-250px);
     display: none;
+  }
+  @media (min-width: 1000px) {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
   }
 `;
 
@@ -47,7 +52,7 @@ export const MenuToggle = styled.div`
     outline: none;
 
   }
-  @media (max-width: 768px) {
+  @media (max-width: 999px) {
     display: flex;
     position: absolute;
     top: -5px;
@@ -57,6 +62,7 @@ export const MenuToggle = styled.div`
 `
 
 export const Content = styled.div`
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,7 +92,7 @@ export const Settings = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding-top: 80px; */
+  padding-top: 80px;
 
   svg {
     margin-right: 0.5rem;

@@ -2,8 +2,14 @@
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
   .container {
     display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  .main {
+    margin-left: 250px;
   }
 }

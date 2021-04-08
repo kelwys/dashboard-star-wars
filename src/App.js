@@ -8,7 +8,9 @@ export function App() {
   return (
     <div className="container">
       <Menu />
-      <Dashboard />
+      <div className="main">
+        <Dashboard />
+      </div>
       <GlobalStyle />
     </div>
   );
