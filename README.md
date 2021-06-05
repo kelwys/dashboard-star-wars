@@ -5,7 +5,7 @@
 
 
 <h3 align="center">
-    Dashboard based on the famous Star Wars World! With ReactJs 💻🚀
+   📈 Dashboard based on the famous Star Wars World! With ReactJs 💻🚀
 </h3>
 
 <p align="center">
